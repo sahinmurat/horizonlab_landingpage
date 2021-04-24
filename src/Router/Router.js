@@ -9,7 +9,7 @@ import Services from "../components/Services/Services";
 const AppRouter = () => {
     return (
         <Router>
-            <Navbar />
+            {/* <Navbar /> */}
             <Switch>
                 <Route exact path='/' component={Header} />
             </Switch>

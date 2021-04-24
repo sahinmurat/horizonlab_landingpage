@@ -2,9 +2,11 @@ import React from 'react'
 import Typed from "react-typed";
 import { Link } from "react-scroll";
 import './Header.css'
+import Navbar from '../Navbar/Navbar';
 const Header = () => {
     return (
         <div id="home" className="header-wrapper">
+            <Navbar/>
             <div className="main-info">
             <canvas></canvas>
                 <h1 className='title'>You are at the right address here... </h1>
