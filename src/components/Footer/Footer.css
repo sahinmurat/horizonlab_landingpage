@@ -1,0 +1,29 @@
+:root {
+    --primary-white : #ffffff;
+    --primary-red : rgb(220, 20, 60);
+    --primary-dark-grey: rgb(102, 102, 102);
+    --primary-dark : rgba(2,10,32,0.9);
+}
+
+.footer {
+    background: rgba(2,10,32,0.9);
+    color: var(--primary-dark-grey);
+    padding: 3rem;
+    border-top: 3px solid var(--primary-red);
+  }
+  
+  .footer a {
+    text-decoration: none;
+    color: var(--primary-dark-grey);
+  }
+  
+  .footer a:hover {
+    text-decoration: none;
+    color: var(--primary-red);
+    cursor:pointer;
+  }
+  
+  .footer p {
+    margin-bottom: 0;
+  }
+  

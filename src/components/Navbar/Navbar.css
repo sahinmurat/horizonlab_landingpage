@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap');
+/* font-family: "Roboto Condensed", sans-serif !important; */
+@import url('https://fonts.googleapis.com/css2?family=Questrial&display=swap');
+/* font-family: 'Questrial', sans-serif !important; */
+@import url('https://fonts.googleapis.com/css2?family=Cantarell&display=swap');
+/* font-family: 'Cantarell', sans-serif !important; */
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400&display=swap');
+/* font-family: 'Raleway', sans-serif; */
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@400&display=swap');
+/* font-family: 'Comfortaa', cursive; */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400&display=swap');
+/* font-family: 'Montserrat', sans-serif; */
+
+
+:root {
+    --primary-white : #ffffff;
+    --primary-dark : rgba(2,10,32,0.9);
+    --primary-red : rgb(220, 20, 60);
+    --primary-dark-grey: rgb(102, 102, 102);
+}
+
+nav {
+    z-index: 2;
+    background-color:   rgba(2,10,32,0.9);;
+    color: white !important;
+    font-family: 'Raleway', sans-serif !important;
+  }
+
+.navbar-brand {
+    color: var(--primary-white) !important;
+}
+
+  /* ----------menu links-----------*/
+nav a.nav-link {
+      font-size: 1rem;
+      font-weight: 400;
+      letter-spacing: 0.02rem;
+      cursor: pointer;
+}
+
+nav ul li {
+    text-transform: uppercase;
+}
+
+.navbar-nav > li > a {
+    color: var(--primary-white) !important;
+    margin-left: 0.4rem;
+    margin-right: 0.4rem;
+    border-top: 0.1875rem solid var(--primary-dark);
+  }
+
+  .navbar-nav > li > a.active, .navbar-nav > li > a:focus {
+    border-top: 0.1875rem solid var(--primary-red);
+  }
+
+  .navbar-nav > li > a:hover {
+    border-top: 0.1875rem solid var(--primary-red);
+  }
+
+  .logo {
+    height: 45px;
+    border-radius: 10px;
+  }
+
+@media(max-width:400px) {
+    .logo {
+      height: 37px;
+      border-radius: 10px;
+    }
+  }

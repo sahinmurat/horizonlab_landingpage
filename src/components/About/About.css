@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Questrial&display=swap');
+/* font-family: 'Questrial', sans-serif !important; */
+@import url('https://fonts.googleapis.com/css2?family=Cantarell&display=swap');
+/* font-family: 'Cantarell', sans-serif !important; */
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400&display=swap');
+/* font-family: 'Raleway', sans-serif; */
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@400&display=swap');
+/* font-family: 'Comfortaa', cursive; */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400&display=swap');
+/* font-family: 'Montserrat', sans-serif; */
+
+
+:root {
+    --primary-white : #ffffff;
+    --primary-dark : rgba(2,10,32,0.9);
+    --primary-red : rgb(220, 20, 60);
+    --primary-dark-grey: rgb(102, 102, 102);
+}
+#about{
+  border-bottom: 3px solid var(--primary-red);
+}
+.photo-wrap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .row{
+    justify-content: center;
+    align-items: center; ;
+  }
+  
+  .profile-img {
+    width: 32rem;
+    border-radius: 50%;
+    /* border-radius: 20px; */
+    padding: .3rem;
+    border: 3px solid var(--primary-red);
+  }
+  
+  .about-heading {
+    font-family: 'Raleway', sans-serif !important;
+    color: var(--primary-red);
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 600;
+  }
+  .about-text{
+    font-size: 1.5rem;
+    font-family: 'Raleway', sans-serif !important;
+  }
+  
+  @media(max-width: 468px) {
+    .profile-img {
+      width: 10rem;
+    }
+  }
