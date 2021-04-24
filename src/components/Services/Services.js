@@ -9,7 +9,7 @@ import './Services.css'
 const Services = () => {
   return (
     <div id="services" className="services">
-      <h1 className="py-5">my services</h1>
+      <h1 className="py-5">Our services</h1>
       <div className="container">
         <div className="row">
           {/* - */}
@@ -30,6 +30,7 @@ const Services = () => {
               <div className="circle"><FontAwesomeIcon className="icon" icon={faBrain} size="2x" /></div>
               <h3>Artificial Intelligence</h3>
               <div className='subtitle'>
+                <p></p>
                 <p>* Machine Learning</p>
                 <p>* Deep Learning</p>
               </div>
@@ -52,6 +53,7 @@ const Services = () => {
             <div className="box">
               <div className="circle"><FontAwesomeIcon className="icon" icon={faFileCode} size="2x" /></div>
               <h3>Web Development</h3>
+              <p></p>
               <p>Front-end/back-end software development</p>
             </div>
           </div>
@@ -61,6 +63,7 @@ const Services = () => {
               <div className="circle"><FaMixcloud className="icon" icon={FaMixcloud} size="2x" /></div>
 
               <h3>Cloud Engineering</h3>
+              <p></p>
               <p>Uptime IT is a provider of effective and certified hosting solutions - precisely tailored to your company</p>
             </div>
           </div>
@@ -70,6 +73,7 @@ const Services = () => {
               <div className="circle"><FontAwesomeIcon className="icon" icon={faProjectDiagram} size="2x" /></div>
 
               <h3>Product Management</h3>
+              <p></p>
               <p>Your service or product will appear at the top of the Google search</p>.
               </div>
           </div>
@@ -79,6 +83,7 @@ const Services = () => {
               <div className="circle"><FontAwesomeIcon className="icon" icon={faTv} size="2x" /></div>
 
               <h3>Digital Transformation</h3>
+              <p></p>
               <p>Your service or product will appear at the top of the Google search</p>.
               </div>
           </div>

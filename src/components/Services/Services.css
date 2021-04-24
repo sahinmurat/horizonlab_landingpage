@@ -19,7 +19,7 @@
   }
   
   .services h1 {
-    color: var(--primary-dark);
+    color: var(--primary-red);
     text-transform: uppercase;
   }
   
@@ -69,7 +69,10 @@
 
 .subtitle{
     margin-left: 40px;
-    font-size: 18px;
+    font-size: 19px;
     text-align: left;
     /* color: #f33501; */
+}
+.box > p {
+  font-size: 19px
 }

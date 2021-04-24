@@ -91,6 +91,8 @@
 .title {
   background-color: rgba(0, 0, 58, 0.8);
   border-radius: 10px;
+  margin-left: 50px;
+  margin-right: 50px;
 }
   
 @media(max-width: 768px) {
