@@ -26,7 +26,10 @@ nav {
     font-family: 'Raleway', sans-serif !important;
   }
 
-
+.navbar {
+  display: flex;
+  justify-content: space-between;
+}
 .navbar-brand {
     color: var(--primary-white) !important;
 }
