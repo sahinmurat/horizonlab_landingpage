@@ -18,6 +18,7 @@
 }
 .wrapper{
   border-bottom: 3px solid var(--primary-red);
+  border-top: 3px solid var(--primary-red);
   margin: 0;
   padding: 0;
   background: url(about.jpeg);
