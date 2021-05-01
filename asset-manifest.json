@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/horizonlab_landingpage/static/css/main.b98aa8be.chunk.css",
+    "main.js": "/horizonlab_landingpage/static/js/main.32228208.chunk.js",
+    "main.js.map": "/horizonlab_landingpage/static/js/main.32228208.chunk.js.map",
+    "runtime-main.js": "/horizonlab_landingpage/static/js/runtime-main.629ae7cf.js",
+    "runtime-main.js.map": "/horizonlab_landingpage/static/js/runtime-main.629ae7cf.js.map",
+    "static/css/2.150d169a.chunk.css": "/horizonlab_landingpage/static/css/2.150d169a.chunk.css",
+    "static/js/2.f2c1b1e7.chunk.js": "/horizonlab_landingpage/static/js/2.f2c1b1e7.chunk.js",
+    "static/js/2.f2c1b1e7.chunk.js.map": "/horizonlab_landingpage/static/js/2.f2c1b1e7.chunk.js.map",
+    "static/js/3.0e555b3a.chunk.js": "/horizonlab_landingpage/static/js/3.0e555b3a.chunk.js",
+    "static/js/3.0e555b3a.chunk.js.map": "/horizonlab_landingpage/static/js/3.0e555b3a.chunk.js.map",
+    "index.html": "/horizonlab_landingpage/index.html",
+    "static/css/2.150d169a.chunk.css.map": "/horizonlab_landingpage/static/css/2.150d169a.chunk.css.map",
+    "static/css/main.b98aa8be.chunk.css.map": "/horizonlab_landingpage/static/css/main.b98aa8be.chunk.css.map",
+    "static/js/2.f2c1b1e7.chunk.js.LICENSE.txt": "/horizonlab_landingpage/static/js/2.f2c1b1e7.chunk.js.LICENSE.txt",
+    "static/media/Services.css": "/horizonlab_landingpage/static/media/a.e2bfbc6a.jpeg",
+    "static/media/About.css": "/horizonlab_landingpage/static/media/about.69337f9b.jpeg",
+    "static/media/Header.css": "/horizonlab_landingpage/static/media/homepage.39fcf5e3.jpg",
+    "static/media/logo2.7682a8f1.png": "/horizonlab_landingpage/static/media/logo2.7682a8f1.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.629ae7cf.js",
+    "static/css/2.150d169a.chunk.css",
+    "static/js/2.f2c1b1e7.chunk.js",
+    "static/css/main.b98aa8be.chunk.css",
+    "static/js/main.32228208.chunk.js"
+  ]
+}
