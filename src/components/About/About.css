@@ -16,42 +16,73 @@
     --primary-red : rgb(220, 20, 60);
     --primary-dark-grey: rgb(102, 102, 102);
 }
-#about{
+.wrapper{
   border-bottom: 3px solid var(--primary-red);
+  margin: 0;
+  padding: 0;
+  background: url(about.jpeg);
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  color: #ffffff;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+
 }
-.photo-wrap {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  .row{
-    justify-content: center;
-    align-items: center; ;
-  }
-  
-  .profile-img {
-    width: 32rem;
-    border-radius: 50%;
-    /* border-radius: 20px; */
-    padding: .3rem;
-    border: 3px solid var(--primary-red);
-  }
-  
-  .about-heading {
+.about-heading {
     font-family: 'Raleway', sans-serif !important;
     color: var(--primary-red);
     text-transform: uppercase;
     text-align: center;
     font-size: 35px;
     font-weight: 600;
+    margin: 1rem 2rem;
   }
-  .about-text{
+.text{
+  width: 50%;
+  margin: 2rem;
+}
+.about-text{
     font-size: 1.5rem;
     font-family: 'Raleway', sans-serif !important;
   }
   
-  @media(max-width: 468px) {
-    .profile-img {
-      width: 10rem;
+@media(max-width: 468px) {
+    .about-heading {
+      font-family: 'Raleway', sans-serif !important;
+      color: var(--primary-red);
+      text-transform: uppercase;
+      text-align: center;
+      font-size: 30px;
+      font-weight: 500;
+      margin: 1rem;
     }
+  .text{
+    width: 100%;
+    margin: 2rem;
   }
+  .about-text{
+      font-size: 1.2rem;
+      font-family: 'Raleway', sans-serif !important;
+    }
+}
+@media(max-width: 900px) {
+  .about-heading {
+    font-family: 'Raleway', sans-serif !important;
+    color: var(--primary-red);
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 500;
+    margin: 1rem;
+  }
+.text{
+  /* width: 60%; */
+  margin: 2rem;
+}
+.about-text{
+    font-size: 1.0rem;
+    font-family: 'Raleway', sans-serif !important;
+  }
+}

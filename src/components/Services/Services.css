@@ -11,7 +11,10 @@
     --primary-transparent-black: rgba(0,0,0,0.7);
     --primary-green: green;
   }
-
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
 .services {
     text-align: center;
     padding-bottom: 2rem;
@@ -75,4 +78,12 @@
 }
 .box > p {
   font-size: 19px
+}
+
+@media(max-width: 468px) {
+  .services h1 {
+    color: var(--primary-red);
+    text-transform: uppercase;
+    font-size: 30px;
+  }
 }

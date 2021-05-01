@@ -2,6 +2,7 @@
 
 # dependencies
 /node_modules
+/HorizonLab
 /.pnp
 .pnp.js
 

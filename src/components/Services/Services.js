@@ -1,7 +1,7 @@
 import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faFacebookF, faGoogle, faProductHunt } from "@fortawesome/free-brands-svg-icons";
-import { faDesktop, faBrain, faDatabase, faFileCode,faTv,  faProjectDiagram } from "@fortawesome/free-solid-svg-icons";
+import { faProductHunt } from "@fortawesome/free-brands-svg-icons";
+import { faBrain, faDatabase, faFileCode,faTv,  faProjectDiagram } from "@fortawesome/free-solid-svg-icons";
 import { FaMixcloud } from 'react-icons/fa';
 import './Services.css'
 

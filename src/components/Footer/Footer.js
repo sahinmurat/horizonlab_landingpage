@@ -11,7 +11,7 @@ import {
   LinkedinIcon
 } from "react-share";
 import { Link } from "react-scroll";
- 
+
 const Footer = () => {
   return (
     <div className="footer">
@@ -31,7 +31,7 @@ const Footer = () => {
           <div className="col-lg-3 col-md-2 col-sm-6">
             <div className="row">
               <div className="col">
-                <Link  className="footer-nav" smooth={true} to="home" offset={-110}  >Home Page <span className="sr-only">(current)</span></Link>
+                <Link className="footer-nav" smooth={true} to="home" offset={-110}  >Home Page <span className="sr-only">(current)</span></Link>
                 <br />
                 <Link className="footer-nav" smooth={true} to="about" offset={-110} >About Us</Link>
                 <br />
@@ -46,24 +46,23 @@ const Footer = () => {
           <div className="col-lg-5 col-md-5 col-sm-6 align-items-center">
             <div className="d-flex justify-content-center">
               <FacebookShareButton
-                url={"https://www.youtube.com/"}
-                quote={"Avukat"}
-                hashtag="#avukat"
+                url={"https://www.facebook.com/BehorizonOrg/"}
+                quote={"BehorizonOrg"}
+                hashtag="#BehorizonOrg"
               >
                 <FacebookIcon className="mx-3" size={36} />
               </FacebookShareButton>
               <TwitterShareButton
-                url={"https://twitter.com//"}
-                quote={"Avukat"}
-                hashtag="#avukat"
+                url={"https://twitter.com/BehorizonOrg"}
+                quote={"BeHorizonOrg"}
+                hashtag="#BeHorizonOrg"
               >
                 <TwitterIcon className="mx-3" size={36} />
               </TwitterShareButton>
-            
               <LinkedinShareButton
-                url={"www.linkedin.com/in/"}
-                // quote={"Avukat"}
-                // hashtag="#avukat"
+                url={"https://www.linkedin.com/company/beyondthehorizon/"}
+                quote={"BeHorizonOrg"}
+                hashtag="#BeHorizonOrg"
               >
                 <LinkedinIcon className="mx-3" size={36} />
               </LinkedinShareButton>

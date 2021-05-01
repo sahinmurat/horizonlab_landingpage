@@ -6,14 +6,12 @@ import Navbar from '../Navbar/Navbar';
 const Header = () => {
     return (
         <div id="home" className="header-wrapper">
-            <Navbar/>
+            <Navbar />
             <div className="main-info">
-            <canvas></canvas>
-                <h1 className='title'>You are at the right address here... </h1>
-               
+                <canvas></canvas>
                 <Typed
                     className="typed-text"
-                    strings={["Data Visualization", "Machine Learning", "Deep Learning", "Hybrid Intelligence", "Ceza Hukuku", "Cloud engineering", "Digitalisation"]}
+                    strings={["Data Visualization", "Machine Learning", "Deep Learning", "Hybrid Intelligence", "Cloud engineering", "Digitalisation"]}
                     typeSpeed={60}
                     backSpeed={70}
                     loop
