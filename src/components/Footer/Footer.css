@@ -27,3 +27,8 @@
     margin-bottom: 0;
   }
   
+  @media(max-width: 768px) {
+   .part{
+      margin: 20px;
+    }
+  }
