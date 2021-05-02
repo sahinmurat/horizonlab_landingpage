@@ -3,7 +3,7 @@ import './Navbar.css'
 import { Link } from 'react-scroll'
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBars } from "@fortawesome/free-solid-svg-icons";
-import logo from './logo.png'
+import logo from './logo2.png'
 
 const Navbar = () => {
     return (
