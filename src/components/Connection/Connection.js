@@ -9,7 +9,7 @@ const Connection = () => {
 
   const serviceID = "service_ID";
   const templateID = "template_ID";
-  const userID = "user_LTG3Zqm80qlTJAhQCazf2";
+  const userID = "user_xpGWPXDRLzEVf7VSN52RG";
 
   const onSubmit = (data, r) => {
 
@@ -26,6 +26,7 @@ const Connection = () => {
       userID
     )
     r.target.reset();
+    console.log('aa',data.name, data.phone, data.email, data.subject,data.description, userID, serviceID, templateID)
   }
 
   const sendEmail = (serviceID, templateID, variables, userID) => {
