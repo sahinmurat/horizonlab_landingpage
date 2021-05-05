@@ -75,11 +75,11 @@ const Connection = () => {
                   className="form-control"
                   placeholder="Phone Number"
                   name="phone"
-                  ref={
-                    register({
-                      required: "Please add your phone number",
-                    })
-                  }
+                  // ref={
+                  //   register({
+                  //     required: "Please add your phone number",
+                  //   })
+                  // }
                 />
                 <div className="line"></div>
               </div>
@@ -95,7 +95,7 @@ const Connection = () => {
                   name="email"
                   ref={
                     register({
-                      required: "Please provide you email",
+                      required: "Please provide your email",
                       pattern: {
                         value: /^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,}$/i,
                         message: "Invalid Email"
