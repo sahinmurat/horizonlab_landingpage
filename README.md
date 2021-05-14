@@ -1,5 +1,5 @@
 ### you can follow the link but it's still on work...  http://www.horizonlab.tech/
-#### project will be added and for that django backend will be used
+#### project file will be added and for that django backend will be used
 
 # Getting Started with Create React App
 
