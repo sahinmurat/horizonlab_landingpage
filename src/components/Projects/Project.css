@@ -1,0 +1,33 @@
+.project-title{
+    text-align: center;
+    color: crimson;
+}
+.project-wrapper {
+    display: flex;
+    flex-direction:row;
+    margin: 0;
+    padding: 0;
+    flex-wrap: wrap;
+    border-bottom: 3px solid  crimson;
+}
+
+.project-image{
+    flex: 1;
+    
+}
+.project-image > img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.project-text{
+    flex: 1;
+    padding: 10px;
+}
+
+@media(max-width: 900px) {
+    .project-wrapper {
+        flex-direction:column;
+            }
+  }
+  

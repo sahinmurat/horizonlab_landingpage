@@ -4,6 +4,7 @@ import Connection from "../components/Connection/Connection";
 import Footer from "../components/Footer/Footer";
 import Header from "../components/Header/Header";
 import Navbar from "../components/Navbar/Navbar";
+import Project from "../components/Projects/Project";
 import Services from "../components/Services/Services";
 
 const AppRouter = () => {
@@ -15,6 +16,7 @@ const AppRouter = () => {
             </Switch>
             <About />
             <Services/>
+            <Project />
             <Connection />
             <Footer/>
         </Router>

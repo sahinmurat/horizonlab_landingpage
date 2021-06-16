@@ -29,7 +29,7 @@ const Navbar = () => {
                             offset={-110} >Areas of Interest</Link>
                     </li>
                     <li className="nav-item">
-                        <Link className="nav-link" href="#" smooth={true}
+                        <Link className="nav-link" href="#" to="projects" smooth={true}
                             offset={-110} >Projects</Link>
                     </li>
                     <li className="nav-item">
